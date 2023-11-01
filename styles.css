@@ -11,6 +11,10 @@ h1 {
 
 }
 
+.name {
+  font-size: small;
+}
+
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
@@ -26,7 +30,7 @@ footer {
 
   background-image: url("./images/kick.png");
   background-size: cover;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
 
 }
 
@@ -35,38 +39,36 @@ footer {
 
   background-image: url("./images/snare.png");
   background-size: cover;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
 
 }
 
 .d {
   background-image: url("./images/tom1.png");
   background-size: cover;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
 
 }
 
 .j {
-  
   background-image: url("./images/tom2.png");
   background-size: cover;
-  background-repeat:  no-repeat;
-
+  background-repeat: no-repeat;
 }
 
 .k {
-  
+
   background-image: url("./images/tom3.png");
   background-size: cover;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
 
 }
 
 .l {
-  
+
   background-image: url("./images/tom4.png");
   background-size: cover;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
 
 }
 
@@ -80,8 +82,8 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  box-shadow: 0 5px 8px 0 #DBEDF3;
+  opacity: 0.4;
 }
 
 .red {
@@ -104,4 +106,22 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+
+  /* Adjust the size of the buttons and font for smaller screens */
+  .drum {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+  }
+
+  /* Adjust title font size for smaller screens */
+  #title {
+    font-size: 20px;
+  }
 }
